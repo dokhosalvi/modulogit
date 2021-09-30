@@ -1,0 +1,15 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Matheus Salvi
+	email = camarasalvi@gmail.com
+[gui]
+	recentrepo = C:/Users/LuciaFámilia/BKP Lúcia/Programas RFB/LúciaFamilia/Documents/Programação/NetflixClone
+	recentrepo = C:/Users/LuciaFámilia/BKP Lúcia/Programas RFB/LúciaFamilia/Documents/Programação/CloneNetflix
+	recentrepo = C:/Users/LuciaFámilia/BKP Lúcia/Programas RFB/LúciaFamilia/Documents/Programação
+[core]
+	editor = \"C:\\Users\\LuciaFámilia\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+	editor = vs
